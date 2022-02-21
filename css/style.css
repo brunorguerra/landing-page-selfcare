@@ -1,0 +1,79 @@
+header {
+  height: 9rem;
+  background: var(--white100);
+}
+
+header .col:nth-child(2) nav ul li a img {
+  width: 2rem;
+}
+
+main #banner {
+  max-height: 37.5rem;
+  min-height: 22.5rem;
+  height: 37.5rem;
+  background: transparent url(../assets/images/banner.jpg) no-repeat
+    center/cover;
+}
+
+main #products .header-box h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+main #products .header-box p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  word-spacing: 0.4rem;
+}
+main #products .list-product h4 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+main #products .list-product p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+main #products .list-product p > span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--green);
+}
+
+footer {
+  background: var(--white300);
+  margin-top: 10rem;
+}
+footer nav.links-footer ul li a,
+footer .newsletter p {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+}
+footer nav.links-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .newsletter .input-newsletter input[type="text"] {
+  width: 30rem;
+  height: 5rem;
+  border: 1px solid var(--gray);
+  outline: none;
+  background: var(--white100);
+  font-size: 2rem;
+}
+footer .newsletter .input-newsletter button {
+  height: 5rem;
+  width: 15rem;
+  border: none;
+  background: var(--green);
+  outline: none;
+  color: var(--white100);
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  main #banner {
+    height: auto;
+  }
+}
