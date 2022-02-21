@@ -39,8 +39,8 @@ The main features of the application are:
 
 ## Links
 
-- Deploy on Netlify:
-- Repository:
+- Deploy on Netlify: https://bootstrap-selfcare.netlify.app/
+- Repository: https://github.com/brunorguerra/landing-page-selfcare/
 
 ## Versioning
 
